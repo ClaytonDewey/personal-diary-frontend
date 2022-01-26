@@ -46,7 +46,7 @@ const Register = () => {
 
   return (
     <div className="columns is-mobile is-centered">
-      <div className="card column is-on-quarter mt-6 has-background-primary-light">
+      <div className="card column is-one-quarter mt-6 has-background-primary-light">
         <div className="card-header has-background-primary-dark">
           <h2 className="card-header-title has-text-white">
             Register for your account.
