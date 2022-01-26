@@ -5,7 +5,7 @@ import server from "../services/Server";
 
 import ReactMde from "react-mde";
 import Showdown from "showdown";
-import "react-md/lib/styles/css/react-mde-all.css";
+import "react-mde/lib/styles/css/react-mde-all.css";
 
 const converter = new Showdown.Converter({
   tables: true,
