@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import AllNotes from "./components/views/AllNotes";
+import AddNote from "./components/views/AddNote";
+
 import "./App.css";
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
           <Login setCurrentUser={setCurrentUser} />
         </Route>
         <Route path="/:username/notes" component={AllNotes} />
+        <Route path="/:username/add" component={AddNote} />
       </Switch>
     </Router>
   );
